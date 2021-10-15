@@ -45,6 +45,13 @@ body {
   font-size: 0.875rem;
 }
 
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 a {
   text-decoration: none;
 }
