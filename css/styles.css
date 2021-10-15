@@ -1,0 +1,41 @@
+/*
+==================================
+            HEADER
+==================================
+*/
+.header {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+  /* background-size: cover; */
+
+  overflow-x: hidden;
+}
+
+.banner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+  text-transform: uppercase;
+  color: var(--clr-white);
+}
+
+.banner h2 {
+  font-family: var(--ff-secondary);
+  color: var(--clr-primary);
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.banner-btn {
+  outline: 0.125rem solid var(--clr-primary);
+  outline-offset: 0.25rem;
+  font-size: 1.25rem;
+  padding: 1rem 1.75rem;
+}
