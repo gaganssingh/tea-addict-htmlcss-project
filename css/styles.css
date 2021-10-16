@@ -127,7 +127,7 @@
   height: 100vh;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+    url("../images/main-bcg.png") center/cover no-repeat fixed;
   /* background-size: cover; */
 
   overflow-x: hidden;

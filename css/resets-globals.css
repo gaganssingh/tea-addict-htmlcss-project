@@ -12,11 +12,11 @@
 ==================================
 */
 :root {
-  --clr-primary: #678e3e;
-  --clr-primary-light: #beed8c;
-  --clr-gray-1: #102a42;
-  --clr-gray-5: #617d98;
-  --clr-gray-10: #f1f5f8;
+  --clr-primary: #e07a5f;
+  --clr-primary-light: #ffd166;
+  --clr-gray-1: #343a40;
+  --clr-gray-5: #6c757d;
+  --clr-gray-10: #dee2e6;
   --clr-white: #fff;
   --ff-primary: "Catamaran", sans-serif;
   --ff-secondary: "Grand Hotel", cursive;
