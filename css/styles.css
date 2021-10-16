@@ -265,6 +265,15 @@
   /* OFFICIAL CANADA RED: FIP RED */
   color: #ff0000;
 }
+.skill-icon__relax {
+  color: #ef6aa7;
+}
+.skill-icon__energize {
+  color: #f2d636;
+}
+.skill-icon__tradition {
+  color: #bb30e9;
+}
 
 .skill-text {
   color: var(--clr-gray-5);
