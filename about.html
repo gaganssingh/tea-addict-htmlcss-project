@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About | Tea Addicts</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/resets-globals.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- --------------------------
+                NAVIGATION
+    -------------------------- -->
+    <!-- BACKDROP WHEN NAV OPEN-->
+    <div class="backdrop" id="backdrop"></div>
+    <!-- OPEN NAV BUTTON -->
+    <span id="nav-btn" class="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="skills.html" class="nav-link">Skills</a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="products.html" class="nav-link">Products</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- --------------------------
+                HEADER
+    -------------------------- -->
+    <header class="header">
+      <div class="banner">
+        <h1>
+          specially <br />
+          crafted tea
+        </h1>
+        <h2>In over one hundred flavors</h2>
+        <a href="#" class="btn banner-btn">Explore</a>
+      </div>
+    </header>
+
+    <!-- --------------------------
+          ABOUT
+    -------------------------- -->
+    <section>
+      <div class="section-center clearfix">
+        <!-- About Image -->
+        <article class="about-img">
+          <div class="about-picture-container">
+            <img
+              src="./images/about-bcg.jpeg"
+              alt="A traditional chinese teapot and a mug in black color, releasing steam."
+              class="about-picture"
+            />
+          </div>
+        </article>
+        <!-- About Info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title">
+            <h3>about</h3>
+            <h2>tea addicts</h2>
+          </div>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            magnam. Pariatur eaque deserunt eum tempora.
+          </p>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            magnam. Pariatur eaque deserunt eum tempora.
+          </p>
+          <a href="#" class="btn">Learn more</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- --------------------------
+                FOOTER
+    -------------------------- -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <!-- Twitter -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- Instagram -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- Facebook -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+        <h4 class="footer-text">
+          &copy; <span id="copyright-year"></span>
+          <span class="company">Tea Addicts</span> All Rights Reserved
+        </h4>
+      </div>
+    </footer>
+
+    <!-- CUSTOM JS FILE IMPORT -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

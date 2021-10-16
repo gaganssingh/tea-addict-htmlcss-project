@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Products | Tea Addicts</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/resets-globals.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- --------------------------
+                NAVIGATION
+    -------------------------- -->
+    <!-- BACKDROP WHEN NAV OPEN-->
+    <div class="backdrop" id="backdrop"></div>
+    <!-- OPEN NAV BUTTON -->
+    <span id="nav-btn" class="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="skills.html" class="nav-link">Skills</a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="products.html" class="nav-link">Products</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- --------------------------
+                HEADER
+    -------------------------- -->
+    <header class="header">
+      <div class="banner">
+        <h1>
+          specially <br />
+          crafted tea
+        </h1>
+        <h2>In over one hundred flavors</h2>
+        <a href="#" class="btn banner-btn">Explore</a>
+      </div>
+    </header>
+
+    <!-- --------------------------
+                PRODUCTS
+    -------------------------- -->
+    <section class="products">
+      <div class="section-center clearfix">
+        <!-- Product Info -->
+        <article class="product-info">
+          <!-- section title -->
+          <div class="section-title">
+            <h3>Check out</h3>
+            <h2>Our products</h2>
+          </div>
+          <p class="product-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+            doloremque eos impedit ratione, explicabo saepe, fugiat alias,
+            incidunt excepturi aut vel temporibus perspiciatis doloribus
+            aliquam.
+          </p>
+          <a href="#" class="btn">Inventory</a>
+        </article>
+
+        <!-- Product Inventory -->
+        <article class="product-inventory">
+          <!-- Product 1 -->
+          <div class="product">
+            <img
+              src="./images/product-1.jpeg"
+              alt="A cup of steaming hot Blueberry Black tea"
+              class="product-img"
+            />
+            <h4 class="product-title">Blueberry Black Tea</h4>
+            <h4 class="product-price">$6.99</h4>
+          </div>
+          <!-- Product 2 -->
+          <div class="product">
+            <img
+              src="./images/product-2.jpeg"
+              alt="A cup of steaming Oolong Lemon tea"
+              class="product-img"
+            />
+            <h4 class="product-title">Oolong Lemon tea</h4>
+            <h4 class="product-price">$6.99</h4>
+          </div>
+          <!-- Product 3 -->
+          <div class="product">
+            <img
+              src="./images/product-3.jpeg"
+              alt="A freshly steeped White Jasmine White tea"
+              class="product-img"
+            />
+            <h4 class="product-title">White Jasmine Iced Tea</h4>
+            <h4 class="product-price">$6.99</h4>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- --------------------------
+                FOOTER
+    -------------------------- -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <!-- Twitter -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- Instagram -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- Facebook -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+        <h4 class="footer-text">
+          &copy; <span id="copyright-year"></span>
+          <span class="company">Tea Addicts</span> All Rights Reserved
+        </h4>
+      </div>
+    </footer>
+
+    <!-- CUSTOM JS FILE IMPORT -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
