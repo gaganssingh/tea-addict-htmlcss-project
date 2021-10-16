@@ -383,11 +383,34 @@
   }
 }
 
-/*  */
-/*  */
-/*  */
 /*
 ==================================
-            
+            FOOTER
 ==================================
 */
+.footer {
+  background-color: #333;
+  text-align: center;
+}
+
+.social-icon {
+  color: var(--clr-white);
+  font-size: 1.75rem;
+  margin-right: 1.5rem;
+  transition: var(--transition);
+}
+
+.social-icon:hover {
+  color: var(--clr-primary);
+}
+
+.footer-text {
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  font-weight: 400;
+}
+
+.company {
+  color: var(--clr-primary);
+}
